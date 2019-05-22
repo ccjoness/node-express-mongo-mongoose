@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "compose-middleware": "^5.0.1",
+    "express": "^4.17.0",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.10"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "name": "src",
+  "version": "1.0.0",
+  "main": "src/database.js",
+  "keywords": [],
+  "author": "Christopher Jones",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.0"
+  }
+}
